@@ -1,0 +1,84 @@
+/* Small Screens (Mobile) - 320px to 576px */
+@media (max-width: 576px) {
+    .container {
+        max-width: 100%;
+        min-height: auto;
+        margin: 10px;
+        padding: 15px;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .sidebar {
+        height: 300px;
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form {
+        height: auto;
+        width: 100%;
+        display: block;
+        position: static;
+        padding: 20px;
+    }
+
+    .form-content {
+        height: auto;
+        width: 100%;
+        display: block;
+        position: static;
+        left: auto;
+        padding: 20px;
+    }
+
+    h3 {
+        font-size: 24px;
+        padding: 10px 0;
+    }
+
+    h4 {
+        font-size: 14px;
+        padding: 10px 0;
+    }
+
+    p {
+        font-size: 12px;
+        padding: 10px 0;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    input[type="radio"] {
+        margin-right: 10px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    textarea,
+    select {
+        width: 100%;
+        padding: 12px;
+        margin: 10px 0;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        font-size: 14px;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,83 @@
+/* Medium Screens (Tablets) - 577px to 992px */
+@media (min-width: 577px) and (max-width: 992px) {
+    .container {
+        max-width: 95%;
+        min-height: 700px;
+        margin: 5vh auto;
+        padding: 20px;
+        border-radius: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .sidebar {
+        height: 700px;
+        width: 40%;
+        display: inline-block;
+        border-radius: 10px;
+    }
+
+    .form {
+        height: auto;
+        width: 55%;
+        display: inline-block;
+        position: static;
+        padding: 30px;
+    }
+
+    .form-content {
+        height: auto;
+        width: 55%;
+        display: block;
+        position: static;
+        left: auto;
+        padding: 30px;
+    }
+
+    h3 {
+        font-size: 28px;
+        padding: 15px 0;
+    }
+
+    h4 {
+        font-size: 16px;
+        padding: 10px 0;
+    }
+
+    p {
+        font-size: 14px;
+        padding: 10px 0;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    form input[type="radio"] {
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    textarea,
+    select {
+        width: 150px;
+        padding: 10px;
+        margin: 8px 0;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        font-size: 14px;
+    }
+
+    button {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+}

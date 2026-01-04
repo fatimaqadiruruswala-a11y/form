@@ -1,0 +1,106 @@
+/* Large Screens (Desktop) - 993px and above */
+@media (min-width: 993px) {
+    .container {
+        max-width: 900px;
+        min-height: 600px;
+        background-color: rgba(63, 154, 233, 0.534);
+        margin: 5vh auto;
+        padding: 20px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    .sidebar {
+        height: 760px;
+        width: 30%;
+        background-color: rgb(54, 76, 245);
+        border-radius: 10px;
+        display: inline-block;
+        position: relative;
+        flex-shrink: 0;
+    }
+
+    .form {
+        height: 760px;
+        width: 65%;
+        background-color: rgb(153, 253, 253);
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        padding: 30px;
+        border-radius: 10px;
+    }
+
+    .form-content {
+        height: 760px;
+        width: 65%;
+        background-color: rgb(153, 253, 253);
+        display: inline-block;
+        position: relative;
+        left: auto;
+        text-align: center;
+        padding: 30px;
+        border-radius: 10px;
+    }
+
+    h3 {
+        color: rgba(0, 60, 255, 0.74);
+        padding: 5%;
+        font-size: 32px;
+    }
+
+    h4 {
+        font-size: 16px;
+        padding: 10px 0;
+    }
+
+    p {
+        font-size: 14px;
+        padding: 10px 0;
+    }
+
+    span {
+        color: rgba(0, 60, 255, 0.74);
+    }
+
+    form {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0;
+        
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    textarea,
+    select {
+        width: 100%;
+    
+        padding: 12px;
+        margin: 10px 0;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+        font-size: 14px;
+    }
+
+    button {
+        width: 80%;
+        padding: 12px;
+        font-size: 16px;
+        margin-top: 20px;
+        background-color: rgb(54, 76, 245);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: rgba(54, 76, 245, 0.8);
+    }
+}
